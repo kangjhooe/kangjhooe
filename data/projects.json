@@ -9,13 +9,13 @@
     "codeUrl": "https://github.com/kangjhooe/xclass"
   },
   {
-    "slug": "pkkm-presentation",
-    "title": "Website Presentasi PKKM",
-    "description": "Portal statis premium untuk presentasi PKKM yang menampilkan profil lembaga, kurikulum unggulan, dan capaian siswa secara interaktif.",
-    "thumbnail": "/assets/projects/pkkm-card.svg",
+    "slug": "institution-showcase",
+    "title": "Website Showcase Lembaga",
+    "description": "Portal statis premium untuk presentasi profil lembaga, kurikulum unggulan, dan capaian siswa secara interaktif.",
+    "thumbnail": "/assets/projects/showcase-card.svg",
     "tech": ["Next.js", "Tailwind CSS", "Contentful"],
     "demoUrl": "https://presentasi.kangjhooe.com",
-    "codeUrl": "https://github.com/kangjhooe/pkkm-site"
+    "codeUrl": "https://github.com/kangjhooe/showcase-site"
   },
   {
     "slug": "learning-monitoring",
@@ -25,6 +25,47 @@
     "tech": ["React", "Node.js", "MongoDB", "WhatsApp API"],
     "demoUrl": "https://monitoring.kangjhooe.com",
     "codeUrl": "https://github.com/kangjhooe/madrasah-monitoring"
+  },
+  {
+    "slug": "alfalahkrui-portal",
+    "title": "Portal Lembaga Al Falah Krui",
+    "description": "Website resmi alfalahkrui.com yang menghadirkan profil lembaga, berita santri, dan katalog layanan pendidikan dalam satu pintu.",
+    "thumbnail": "/assets/projects/alfalahkrui-card.svg",
+    "tech": ["WordPress", "Tailwind CSS", "SEO"],
+    "demoUrl": "https://alfalahkrui.com"
+  },
+  {
+    "slug": "xclass-id-landing",
+    "title": "Landing Page XClass.id",
+    "description": "Situs promosi XClass versi xclass.id untuk menyorot solusi LMS, modul AI Tutor, dan paket implementasi untuk madrasah.",
+    "thumbnail": "/assets/projects/xclass-id-card.svg",
+    "tech": ["Next.js", "Framer Motion", "Resend"],
+    "demoUrl": "https://xclass.id",
+    "codeUrl": "https://github.com/kangjhooe/xclass"
+  },
+  {
+    "slug": "alkhawarizmi-platform",
+    "title": "Al Khawarizmi - Digital Learning Hub",
+    "description": "alkhawarizmi.kangjhooe.com sebagai pusat materi, streaming kajian, dan repositori tugas terintegrasi.",
+    "thumbnail": "/assets/projects/alkhawarizmi-card.svg",
+    "tech": ["Next.js", "Supabase", "Shadcn UI"],
+    "demoUrl": "https://alkhawarizmi.kangjhooe.com"
+  },
+  {
+    "slug": "mts-alfalah-workspace",
+    "title": "Workspace MTs Al Falah Krui",
+    "description": "Email institusi mts.alfalahkrui@gmail.com yang terintegrasi dengan Google Workspace untuk pengarsipan surat dan komunikasi guru.",
+    "thumbnail": "/assets/projects/mts-alfalah-card.svg",
+    "tech": ["Google Workspace", "SPF/DKIM", "Helpdesk"],
+    "demoUrl": "mailto:mts.alfalahkrui@gmail.com"
+  },
+  {
+    "slug": "ma-alfalah-workspace",
+    "title": "Workspace MA Al Falah Krui",
+    "description": "Kanal resmi ma.alfalahkrui@gmail.com untuk koordinasi MA Al Falah Krui, lengkap dengan label otomatis dan delegasi akses.",
+    "thumbnail": "/assets/projects/ma-alfalah-card.svg",
+    "tech": ["Google Workspace", "AppSheet", "Automations"],
+    "demoUrl": "mailto:ma.alfalahkrui@gmail.com"
   }
 ]
 

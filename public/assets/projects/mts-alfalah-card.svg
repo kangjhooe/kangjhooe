@@ -1,0 +1,32 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mts-bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050914" />
+      <stop offset="1" stop-color="#0F1F2E" />
+    </linearGradient>
+    <radialGradient id="mts-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 180) rotate(90) scale(200 320)">
+      <stop offset="0" stop-color="#F4D169" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#050914" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="36" fill="url(#mts-bg)" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="#04070F" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="url(#mts-glow)" />
+  <path d="M120 260C150 220 190 180 250 210C310 240 330 300 410 280C470 264 510 210 540 180" stroke="#F4D169" stroke-width="6" stroke-linecap="round" />
+  <circle cx="220" cy="150" r="54" fill="#0B1521" stroke="#F4D169" stroke-opacity="0.4" stroke-width="3" />
+  <circle cx="420" cy="200" r="64" fill="#0B1521" stroke="#4BF0B1" stroke-opacity="0.3" stroke-width="3" />
+  <rect x="160" y="110" width="320" height="140" rx="30" fill="#091320" stroke="#F4D169" stroke-opacity="0.35" />
+  <rect x="200" y="146" width="240" height="20" rx="10" fill="#E8C68E" />
+  <rect x="200" y="180" width="160" height="16" rx="8" fill="#4BF0B1" />
+  <rect x="200" y="205" width="120" height="14" rx="7" fill="#1D2F45" />
+  <text x="50%" y="90" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#F5F2EA">
+    MTS AL FALAH
+  </text>
+  <text x="50%" y="122" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.35em" fill="#F4D169">
+    WORKSPACE
+  </text>
+  <text x="50%" y="318" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#F4D169">
+    Email Institusi & Automasi Surat
+  </text>
+</svg>
+

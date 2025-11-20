@@ -1,0 +1,36 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="showcase-bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07140F" />
+      <stop offset="1" stop-color="#031C18" />
+    </linearGradient>
+    <linearGradient id="showcase-arc" x1="80" y1="280" x2="560" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8C68E" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#47E0B1" stop-opacity="0.6" />
+    </linearGradient>
+    <radialGradient id="showcase-spot" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 120) rotate(90) scale(200 320)">
+      <stop offset="0" stop-color="#3CF5A1" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#07140F" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="36" fill="url(#showcase-bg)" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="#020806" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="url(#showcase-spot)" />
+  <path d="M120 270C196 200 286 160 320 160C354 160 444 200 520 270" stroke="url(#showcase-arc)" stroke-width="10" stroke-linecap="round" />
+  <rect x="100" y="120" width="440" height="150" rx="28" fill="#061812" stroke="#E8C68E" stroke-opacity="0.25" />
+  <rect x="130" y="150" width="380" height="90" rx="18" fill="#09261D" stroke="white" stroke-opacity="0.08" />
+  <rect x="130" y="150" width="120" height="90" rx="18" fill="#0F3224" />
+  <rect x="270" y="168" width="220" height="12" rx="6" fill="#E8C68E" />
+  <rect x="270" y="192" width="180" height="10" rx="5" fill="#49E0B2" />
+  <rect x="270" y="214" width="140" height="10" rx="5" fill="#1C4532" />
+  <text x="50%" y="90" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#F5F2EA">
+    SHOWCASE LEMBAGA
+  </text>
+  <text x="50%" y="120" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.25em" fill="#E8C68E">
+    VISUAL STORYTELLING
+  </text>
+  <text x="50%" y="320" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#F5F2EA" fill-opacity="0.9">
+    Website Presentasi Premium
+  </text>
+</svg>
+

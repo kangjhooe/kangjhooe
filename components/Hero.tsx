@@ -12,11 +12,12 @@ const heroStats = [
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-white/90 to-primary/5 dark:from-[#04170F] dark:to-[#0F3726]">
+    <section className="relative overflow-hidden border border-white/5 bg-gradient-to-br from-[#030a07] via-[#0b1c15] to-[#123327] shadow-[0_45px_120px_-60px_rgba(0,0,0,0.9)]">
+      <div className="pointer-events-none absolute inset-px rounded-[30px] border border-white/5 opacity-40" />
       <div className="relative z-10 grid gap-10 lg:grid-cols-2">
         <div className="space-y-6">
           <motion.p
-            className="text-sm uppercase tracking-[0.4em] text-primary/80"
+            className="text-sm uppercase tracking-[0.4em] text-primary"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
@@ -32,10 +33,10 @@ export function Hero() {
             <h1 className="text-4xl font-semibold text-gradient sm:text-6xl">
               Kang Jhooe
             </h1>
-            <p className="text-xl text-foreground/80 dark:text-foreground/70">
+            <p className="text-xl text-foreground/90">
               Fullstack Developer | Pendidikan | EdTech Builder
             </p>
-            <p className="max-w-2xl text-base leading-relaxed text-foreground/75">
+            <p className="max-w-2xl text-base leading-relaxed text-foreground/80">
               Pengembang aplikasi XClass dan pendukung penuh digitalisasi pendidikan
               berbasis data. Selalu belajar untuk memberi manfaat.
             </p>
@@ -55,18 +56,21 @@ export function Hero() {
           </motion.div>
           <div className="grid gap-4 pt-6 sm:grid-cols-3">
             {heroStats.map((stat) => (
-              <div key={stat.label} className="rounded-2xl border border-white/40 bg-white/60 p-4 text-center shadow-sm dark:border-white/10 dark:bg-white/5">
+              <div
+                key={stat.label}
+                className="rounded-2xl border border-primary/35 bg-[rgba(3,8,6,0.92)] p-4 text-center shadow-[0_25px_55px_-35px_rgba(0,0,0,0.95)]"
+              >
                 <p className="text-3xl font-semibold text-primary">{stat.value}</p>
-                <p className="text-xs uppercase tracking-[0.3em] text-primary/70">
+                <p className="text-xs uppercase tracking-[0.3em] text-primary/80">
                   {stat.label}
                 </p>
-                <p className="text-[13px] text-foreground/70">{stat.detail}</p>
+                <p className="text-[13px] text-foreground/80">{stat.detail}</p>
               </div>
             ))}
           </div>
         </div>
         <motion.div
-          className="relative min-h-[320px] rounded-[32px] border border-white/30 bg-primary/10 p-10 text-white shadow-soft-xl dark:border-primary/40 dark:bg-primary-dark/40"
+          className="relative min-h-[320px] rounded-[32px] border border-primary/25 bg-[rgba(2,8,5,0.95)] p-10 text-white shadow-[0_35px_95px_-50px_rgba(0,0,0,0.9)]"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3 }}
@@ -81,7 +85,7 @@ export function Hero() {
             </h3>
             <p className="text-sm text-white/80">
               Riset, desain, dan pengembangan solusi teknologi untuk kelas virtual,
-              portal presentasi PKKM, hingga monitoring siswa berbasis data.
+              portal presentasi lembaga, hingga monitoring siswa berbasis data.
             </p>
             <div className="flex flex-wrap gap-2 text-xs uppercase tracking-[0.3em] text-white/70">
               <span className="rounded-full border border-white/40 px-3 py-1">

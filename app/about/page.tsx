@@ -22,10 +22,10 @@ const timelines = [
       "Membangun platform pembelajaran berbasis NestJS + Next.js yang memfasilitasi kelas virtual, asesmen adaptif, dan analitik progres siswa.",
   },
   {
-    title: "Koordinator PKKM Digital",
+    title: "Koordinator Showcase Digital",
     period: "2018 - 2021",
     detail:
-      "Menangani dokumentasi serta website presentasi PKKM, memastikan narasi visual dan data lembaga tampil profesional.",
+      "Menangani dokumentasi serta website presentasi lembaga, memastikan narasi visual dan data tampil profesional.",
   },
 ];
 

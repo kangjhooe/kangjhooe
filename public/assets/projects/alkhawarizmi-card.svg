@@ -1,0 +1,36 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="alkhawarizmi-bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#031525" />
+      <stop offset="1" stop-color="#051C1F" />
+    </linearGradient>
+    <radialGradient id="alkhawarizmi-core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 140) rotate(90) scale(220 320)">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#031525" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="36" fill="url(#alkhawarizmi-bg)" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="#02070D" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="url(#alkhawarizmi-core)" />
+  <circle cx="200" cy="160" r="70" fill="#041E2E" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="3" />
+  <circle cx="440" cy="190" r="90" fill="#041E2E" stroke="#2DD4BF" stroke-opacity="0.4" stroke-width="3" />
+  <path d="M220 160C236 130 260 112 292 112C324 112 348 130 364 160C380 190 404 208 436 208C468 208 492 190 508 160" stroke="#2DD4BF" stroke-width="6" stroke-linecap="round" />
+  <circle cx="292" cy="112" r="8" fill="#0EA5E9" />
+  <circle cx="364" cy="160" r="8" fill="#2DD4BF" />
+  <circle cx="436" cy="208" r="8" fill="#E8C68E" />
+  <rect x="110" y="240" width="420" height="70" rx="20" fill="#041E2E" stroke="#0EA5E9" stroke-opacity="0.4" />
+  <rect x="140" y="266" width="180" height="12" rx="6" fill="#E8C68E" />
+  <rect x="140" y="288" width="120" height="10" rx="5" fill="#38BDF8" />
+  <rect x="340" y="266" width="160" height="12" rx="6" fill="#2DD4BF" />
+  <rect x="340" y="288" width="120" height="10" rx="5" fill="#1D4B63" />
+  <text x="50%" y="90" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#F5F2EA">
+    AL KHAWARIZMI HUB
+  </text>
+  <text x="50%" y="122" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.3em" fill="#38BDF8">
+    DIGITAL LEARNING
+  </text>
+  <text x="50%" y="320" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#F5F2EA" fill-opacity="0.9">
+    Streaming Kajian & Materi Adaptif
+  </text>
+</svg>
+

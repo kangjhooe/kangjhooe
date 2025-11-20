@@ -1,0 +1,31 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="alfalah-bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04100B" />
+      <stop offset="1" stop-color="#08251B" />
+    </linearGradient>
+    <radialGradient id="alfalah-crest" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 110) rotate(90) scale(200 320)">
+      <stop offset="0" stop-color="#4BF0B1" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#04100B" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="36" fill="url(#alfalah-bg)" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="#020906" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="url(#alfalah-crest)" />
+  <circle cx="320" cy="150" r="90" fill="#03140E" stroke="#E8C68E" stroke-opacity="0.3" stroke-width="3" />
+  <path d="M320 70L350 110H290L320 70Z" fill="#E8C68E" fill-opacity="0.4" />
+  <path d="M320 240C294 204 270 176 270 150C270 135 276 120 288 110H352C364 120 370 135 370 150C370 176 346 204 320 240Z" fill="#08251B" stroke="#4BF0B1" stroke-width="3" />
+  <circle cx="320" cy="150" r="34" fill="#04140F" stroke="#4BF0B1" stroke-width="2" />
+  <circle cx="320" cy="150" r="18" fill="#4BF0B1" fill-opacity="0.35" />
+  <path d="M210 260H430" stroke="#4BF0B1" stroke-width="5" stroke-linecap="round" stroke-dasharray="30 20" />
+  <text x="50%" y="96" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#F5F2EA">
+    AL FALAH KRUI
+  </text>
+  <text x="50%" y="128" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.25em" fill="#E8C68E">
+    PORTAL LEMBAGA
+  </text>
+  <text x="50%" y="320" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#F5F2EA">
+    Profil & Layanan Terintegrasi
+  </text>
+</svg>
+

@@ -12,12 +12,12 @@ const config: Config = {
       colors: {
         background: "var(--color-bg)",
         foreground: "var(--color-fg)",
-        primary: "#0F5F3F",
-        accent: "#23A26F",
-        secondary: "#E6F2EC",
-        "primary-dark": "#0B3D29",
-        "surface-light": "rgba(255,255,255,0.75)",
-        "surface-dark": "rgba(8,24,16,0.8)",
+        primary: "#E8C68E",
+        accent: "#61E0BD",
+        secondary: "#0A130F",
+        "primary-dark": "#A7773A",
+        "surface-light": "rgba(18,28,24,0.88)",
+        "surface-dark": "rgba(3,7,5,0.95)",
       },
       borderRadius: {
         "2xl": "1.5rem",

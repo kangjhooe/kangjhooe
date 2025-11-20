@@ -4,7 +4,6 @@ import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { FullScreenShortcut } from "@/components/FullScreenShortcut";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import { PageTransition } from "@/components/PageTransition";
 import { SplashScreen } from "@/components/SplashScreen";
 import { BackToTopButton } from "@/components/BackToTopButton";
@@ -39,20 +38,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" suppressHydrationWarning>
+    <html lang="id" className="dark" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground antialiased`}
       >
-        <ThemeProvider>
-          <SplashScreen />
-          <FullScreenShortcut />
-          <Navbar />
-          <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6">
-            <PageTransition>{children}</PageTransition>
-          </main>
-          <BackToTopButton />
-          <Footer />
-        </ThemeProvider>
+        <SplashScreen />
+        <FullScreenShortcut />
+        <Navbar />
+        <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6">
+          <PageTransition>{children}</PageTransition>
+        </main>
+        <BackToTopButton />
+        <Footer />
       </body>
     </html>
   );

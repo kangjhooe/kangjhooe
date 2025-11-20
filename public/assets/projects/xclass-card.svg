@@ -1,11 +1,41 @@
 <svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="640" height="360" rx="40" fill="#0F5F3F"/>
-<rect x="24" y="24" width="592" height="312" rx="28" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.2"/>
-<path d="M160 120H480" stroke="#23A26F" stroke-width="6" stroke-linecap="round"/>
-<path d="M160 180H440" stroke="white" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
-<path d="M160 220H360" stroke="white" stroke-opacity="0.5" stroke-width="4" stroke-linecap="round"/>
-<circle cx="320" cy="80" r="36" fill="#23A26F" fill-opacity="0.4"/>
-<text x="50%" y="86" dominant-baseline="middle" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="26" font-weight="600" fill="white">XCLASS</text>
-<text x="50%" y="300" dominant-baseline="middle" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" fill="white" fill-opacity="0.75">Pembelajaran Digital Adaptif</text>
+  <defs>
+    <linearGradient id="xclass-bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04120C" />
+      <stop offset="1" stop-color="#0B2C23" />
+    </linearGradient>
+    <radialGradient id="xclass-pulse" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 150) rotate(90) scale(220 320)">
+      <stop offset="0" stop-color="#3FF5A0" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#0B2C23" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="xclass-scan" x1="120" y1="80" x2="520" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8C68E" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#4CE1B6" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="36" fill="url(#xclass-bg)" />
+  <rect x="18" y="18" width="604" height="324" rx="30" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <rect x="28" y="28" width="584" height="304" rx="26" fill="#010604" />
+  <rect x="28" y="28" width="584" height="304" rx="26" fill="url(#xclass-pulse)" />
+  <g opacity="0.3">
+    <path d="M68 100H572" stroke="#0E4130" stroke-width="1" stroke-dasharray="6 12" />
+    <path d="M68 148H572" stroke="#0E4130" stroke-width="1" stroke-dasharray="6 12" />
+    <path d="M68 196H572" stroke="#0E4130" stroke-width="1" stroke-dasharray="6 12" />
+    <path d="M68 244H572" stroke="#0E4130" stroke-width="1" stroke-dasharray="6 12" />
+    <path d="M68 292H572" stroke="#0E4130" stroke-width="1" stroke-dasharray="6 12" />
+  </g>
+  <path d="M120 250C160 220 200 190 260 210C300 224 330 248 370 236C420 220 440 160 480 150C520 140 540 168 560 186" stroke="url(#xclass-scan)" stroke-width="6" stroke-linecap="round" />
+  <circle cx="200" cy="160" r="32" fill="#132822" stroke="#3FF5A0" stroke-opacity="0.5" stroke-width="4" />
+  <circle cx="320" cy="132" r="46" fill="none" stroke="#4CE1B6" stroke-opacity="0.4" stroke-width="2" stroke-dasharray="10 12" />
+  <circle cx="440" cy="178" r="24" fill="#122019" stroke="#E8C68E" stroke-opacity="0.5" stroke-width="3" />
+  <text x="50%" y="90" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="28" font-weight="600" fill="#F6F4EF">
+    XCLASS DIGITAL
+  </text>
+  <text x="50%" y="126" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="16" letter-spacing="0.3em" fill="#9FECCA">
+    LEARNING MATRIX
+  </text>
+  <text x="50%" y="310" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#F4F0E6" fill-opacity="0.9">
+    Pembelajaran Digital Adaptif
+  </text>
 </svg>
 

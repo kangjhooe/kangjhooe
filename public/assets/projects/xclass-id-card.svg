@@ -1,0 +1,41 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="xclassid-bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050B1A" />
+      <stop offset="1" stop-color="#02120E" />
+    </linearGradient>
+    <radialGradient id="xclassid-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 180) rotate(90) scale(180 300)">
+      <stop offset="0" stop-color="#5CF6DC" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#02120E" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="xclassid-ray" x1="80" y1="40" x2="520" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F6E3B0" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#5CF6DC" stop-opacity="0.7" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="36" fill="url(#xclassid-bg)" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="#020811" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="url(#xclassid-glow)" />
+  <path d="M80 246C146 210 192 188 272 212C330 230 356 258 416 236C456 222 496 180 560 162" stroke="url(#xclassid-ray)" stroke-width="7" stroke-linecap="round" />
+  <g opacity="0.35">
+    <path d="M116 86H524" stroke="#11242F" stroke-width="2" stroke-dasharray="10 18" />
+    <path d="M116 132H524" stroke="#11242F" stroke-width="2" stroke-dasharray="10 18" />
+    <path d="M116 178H524" stroke="#11242F" stroke-width="2" stroke-dasharray="10 18" />
+    <path d="M116 224H524" stroke="#11242F" stroke-width="2" stroke-dasharray="10 18" />
+    <path d="M116 270H524" stroke="#11242F" stroke-width="2" stroke-dasharray="10 18" />
+  </g>
+  <circle cx="200" cy="150" r="34" fill="#051A1B" stroke="#5CF6DC" stroke-width="2" stroke-opacity="0.4" />
+  <circle cx="318" cy="150" r="44" fill="none" stroke="#F4D89A" stroke-dasharray="18 10" stroke-width="3" stroke-opacity="0.7" />
+  <circle cx="440" cy="150" r="32" fill="#06121B" stroke="#5CF6DC" stroke-width="2" stroke-opacity="0.6" />
+  <path d="M200 150L318 150L440 150" stroke="#5CF6DC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="50%" y="96" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="26" font-weight="600" fill="#F6F2E9">
+    XCLASS.ID
+  </text>
+  <text x="50%" y="130" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.35em" fill="#F6E3B0">
+    IMMERSIVE LANDING
+  </text>
+  <text x="50%" y="308" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#F6E3B0">
+    Showcase Solusi LMS Adaptif
+  </text>
+</svg>
+

@@ -99,7 +99,7 @@ export default function ContactPage() {
                 name="name"
                 placeholder="Nama lengkap Anda"
                 required
-                className="mt-2 w-full rounded-2xl border border-primary/20 bg-white/80 px-4 py-3 text-sm text-foreground focus:border-primary focus:outline-none dark:bg-white/10"
+                className="mt-2 w-full rounded-2xl border border-primary/30 bg-[rgba(13,20,17,0.65)] px-4 py-3 text-sm text-foreground focus:border-primary focus:outline-none"
               />
             </label>
             <label className="block text-sm font-semibold text-primary">
@@ -109,7 +109,7 @@ export default function ContactPage() {
                 name="email"
                 placeholder="email@institusi.sch.id"
                 required
-                className="mt-2 w-full rounded-2xl border border-primary/20 bg-white/80 px-4 py-3 text-sm text-foreground focus:border-primary focus:outline-none dark:bg-white/10"
+                className="mt-2 w-full rounded-2xl border border-primary/30 bg-[rgba(13,20,17,0.65)] px-4 py-3 text-sm text-foreground focus:border-primary focus:outline-none"
               />
             </label>
             <label className="block text-sm font-semibold text-primary">
@@ -119,7 +119,7 @@ export default function ContactPage() {
                 rows={5}
                 placeholder="Ceritakan kebutuhan digitalisasi atau ide kolaborasi Anda"
                 required
-                className="mt-2 w-full rounded-2xl border border-primary/20 bg-white/80 px-4 py-3 text-sm text-foreground focus:border-primary focus:outline-none dark:bg-white/10"
+                className="mt-2 w-full rounded-2xl border border-primary/30 bg-[rgba(13,20,17,0.65)] px-4 py-3 text-sm text-foreground focus:border-primary focus:outline-none"
               />
             </label>
             <input type="hidden" name="subject" value="Kolaborasi bersama Kang Jhooe" />
@@ -135,7 +135,7 @@ export default function ContactPage() {
       </section>
       <a
         href="https://wa.me/6282316161699?text=Halo%20Kang%20Jhooe%2C%20saya%20ingin%20berkolaborasi%20untuk%20transformasi%20digital%20lembaga."
-        className="fixed bottom-24 right-6 z-40 flex items-center gap-2 rounded-full bg-[#23A26F] px-4 py-3 text-sm font-semibold text-white shadow-soft-xl transition hover:-translate-y-1"
+        className="fixed bottom-24 right-6 z-40 flex items-center gap-2 rounded-full bg-primary px-4 py-3 text-sm font-semibold text-[#050806] shadow-soft-xl transition hover:-translate-y-1"
         target="_blank"
         rel="noreferrer"
         aria-label="Hubungi Kang Jhooe via WhatsApp"

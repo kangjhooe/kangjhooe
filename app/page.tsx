@@ -18,9 +18,9 @@ const focusAreas = [
       "Perancangan LMS XClass untuk kelas virtual, asesmen otomatis, dan monitoring wali.",
   },
   {
-    title: "Presentasi PKKM",
+    title: "Showcase Lembaga",
     detail:
-      "Website statis premium dengan storytelling visual yang memperkuat narasi lembaga.",
+      "Website statis premium dengan storytelling visual yang memperkuat narasi dan akreditasi.",
   },
   {
     title: "Adopsi Digital",
@@ -37,8 +37,8 @@ const timeline = [
   },
   {
     year: "2023",
-    title: "Portal PKKM Interaktif",
-    detail: "Membangun situs presentasi interaktif untuk proses akreditasi dan showcase lembaga.",
+    title: "Portal Showcase Interaktif",
+    detail: "Membangun situs presentasi interaktif untuk proses akreditasi dan pengenalan lembaga.",
   },
   {
     year: "2020",

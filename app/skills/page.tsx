@@ -23,6 +23,19 @@ const skillGroups = [
   },
 ];
 
+const creativeSkills = {
+  title: "Keahlian Kreatif & Kolaboratif",
+  description:
+    "Selain teknis, saya menjaga sisi kreatif dengan membaca statistik ala jaring laba-laba untuk menakar performa tim dan kampanye visual.",
+  items: [
+    "Fotografi",
+    "Desain Grafis",
+    "Video Editing",
+    "Manajemen Tim",
+    "Analisis Statistik Visual",
+  ],
+};
+
 export default function SkillsPage() {
   return (
     <section className="space-y-10">
@@ -41,7 +54,7 @@ export default function SkillsPage() {
                 {group.items.map((item) => (
                   <span
                     key={item}
-                    className="rounded-full bg-primary/10 px-4 py-2 text-xs font-semibold text-primary dark:bg-white/10 dark:text-white"
+                    className="rounded-full border border-white/10 bg-[rgba(14,21,17,0.6)] px-4 py-2 text-xs font-semibold text-foreground/90"
                   >
                     {item}
                   </span>
@@ -51,6 +64,24 @@ export default function SkillsPage() {
           ))}
         </div>
         <SkillRadarChart />
+      </div>
+      <div className="glass-panel space-y-4 p-6">
+        <div>
+          <p className="text-xs uppercase tracking-[0.3em] text-primary/70">
+            {creativeSkills.title}
+          </p>
+          <p className="mt-1 text-sm text-foreground/70">{creativeSkills.description}</p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {creativeSkills.items.map((item) => (
+            <span
+              key={item}
+              className="rounded-full border border-white/10 bg-[rgba(14,21,17,0.6)] px-4 py-2 text-xs font-semibold text-foreground/90"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
       </div>
     </section>
   );

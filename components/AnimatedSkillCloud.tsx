@@ -17,7 +17,7 @@ export function AnimatedSkillCloud() {
       {skillNodes.map((skill, index) => (
         <motion.span
           key={skill.label}
-          className="absolute rounded-full border border-white/40 bg-white/30 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-primary-dark shadow-lg shadow-black/10 backdrop-blur dark:border-primary/40 dark:bg-white/10 dark:text-white"
+          className="absolute rounded-full border border-white/20 bg-[rgba(15,22,18,0.7)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-primary shadow-lg shadow-black/40 backdrop-blur"
           style={{ top: skill.top, left: skill.left }}
           animate={{ y: ["0px", "-12px", "0px"] }}
           transition={{

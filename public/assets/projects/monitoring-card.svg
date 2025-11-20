@@ -1,11 +1,43 @@
 <svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="640" height="360" rx="40" fill="#0A2A1D"/>
-<rect x="30" y="30" width="580" height="300" rx="24" fill="white" fill-opacity="0.05" stroke="#23A26F" stroke-opacity="0.4"/>
-<path d="M120 230C150 190 190 150 240 190C290 230 320 150 360 150C400 150 420 230 460 230C500 230 520 200 540 180" stroke="#23A26F" stroke-width="6" stroke-linecap="round"/>
-<circle cx="240" cy="190" r="7" fill="#23A26F"/>
-<circle cx="360" cy="150" r="7" fill="#23A26F"/>
-<circle cx="460" cy="230" r="7" fill="#23A26F"/>
-<text x="50%" y="90" dominant-baseline="middle" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" fill="#E7F4ED">Monitoring Siswa</text>
-<text x="50%" y="120" dominant-baseline="middle" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#E7F4ED" fill-opacity="0.8">Realtime Insight & Kehadiran</text>
+  <defs>
+    <linearGradient id="monitoring-bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#02110C" />
+      <stop offset="1" stop-color="#071F17" />
+    </linearGradient>
+    <linearGradient id="monitoring-line" x1="80" y1="260" x2="560" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8C68E" />
+      <stop offset="1" stop-color="#40F2A7" />
+    </linearGradient>
+    <radialGradient id="monitoring-grid" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 180) rotate(90) scale(200 320)">
+      <stop offset="0" stop-color="#1F6C52" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#02110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="36" fill="url(#monitoring-bg)" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="#020906" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="url(#monitoring-grid)" />
+  <g opacity="0.3">
+    <path d="M84 280H556" stroke="#0C2A1C" stroke-width="2" stroke-dasharray="8 28" />
+    <path d="M84 240H556" stroke="#0C2A1C" stroke-width="2" stroke-dasharray="8 28" />
+    <path d="M84 200H556" stroke="#0C2A1C" stroke-width="2" stroke-dasharray="8 28" />
+    <path d="M84 160H556" stroke="#0C2A1C" stroke-width="2" stroke-dasharray="8 28" />
+    <path d="M84 120H556" stroke="#0C2A1C" stroke-width="2" stroke-dasharray="8 28" />
+  </g>
+  <path d="M100 250C140 196 176 158 226 176C270 192 300 240 340 242C380 244 410 188 450 170C490 152 516 190 540 212" stroke="url(#monitoring-line)" stroke-width="7" stroke-linecap="round" />
+  <circle cx="226" cy="176" r="10" fill="#061E16" stroke="#40F2A7" stroke-width="3" />
+  <circle cx="340" cy="242" r="10" fill="#061E16" stroke="#E8C68E" stroke-width="3" />
+  <circle cx="450" cy="170" r="10" fill="#061E16" stroke="#40F2A7" stroke-width="3" />
+  <rect x="420" y="86" width="140" height="70" rx="14" fill="#07140F" stroke="#40F2A7" stroke-opacity="0.5" />
+  <rect x="440" y="110" width="100" height="12" rx="6" fill="#E8C68E" />
+  <rect x="440" y="134" width="70" height="10" rx="5" fill="#40F2A7" />
+  <text x="50%" y="90" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#F5F2EA">
+    MONITORING SISWA
+  </text>
+  <text x="50%" y="120" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.35em" fill="#40F2A7">
+    REALTIME INSIGHT
+  </text>
+  <text x="50%" y="316" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#E8C68E">
+    Pelacakan Kehadiran & Aktivitas
+  </text>
 </svg>
 

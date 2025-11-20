@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import clsx from "clsx";
-import { DarkModeToggle } from "./DarkModeToggle";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -20,7 +19,7 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-white/20 bg-white/75 backdrop-blur dark:bg-[#07140D]/80 dark:border-white/5">
+    <header className="sticky top-0 z-40 border-b border-white/5 bg-[#020806]/90 shadow-[0_25px_55px_-35px_rgba(0,0,0,0.8)] backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
         <Link
           href="/"
@@ -55,11 +54,8 @@ export function Navbar() {
           })}
         </nav>
         <div className="flex items-center gap-3">
-          <div className="hidden md:block">
-            <DarkModeToggle />
-          </div>
           <button
-            className="rounded-full border border-primary/30 px-4 py-2 text-sm font-semibold text-primary md:hidden"
+            className="rounded-full border border-primary/45 px-4 py-2 text-sm font-semibold text-primary md:hidden"
             onClick={() => setIsMenuOpen((prev) => !prev)}
             aria-label="Buka menu navigasi"
           >
@@ -70,7 +66,7 @@ export function Navbar() {
       <AnimatePresence>
         {isMenuOpen && (
           <motion.nav
-            className="border-t border-white/10 bg-white/90 px-4 py-4 shadow-lg dark:bg-[#04160F]"
+            className="border-t border-white/5 bg-[#030a07] px-4 py-4 shadow-lg"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
@@ -94,7 +90,6 @@ export function Navbar() {
                   </Link>
                 );
               })}
-              <DarkModeToggle />
             </div>
           </motion.nav>
         )}
