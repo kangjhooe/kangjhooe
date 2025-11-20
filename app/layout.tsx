@@ -4,6 +4,11 @@ import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { FullScreenShortcut } from "@/components/FullScreenShortcut";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import { PageTransition } from "@/components/PageTransition";
+import { SplashScreen } from "@/components/SplashScreen";
+import { BackToTopButton } from "@/components/BackToTopButton";
+import { defaultSEO } from "@/next-seo.config";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,30 +21,16 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-const siteName = "Portfolio Kang Jhooe";
-const siteDescription =
-  "Portfolio resmi Kang Jhooe, Fullstack Developer madrasah yang membangun solusi digital seperti XClass untuk pendidikan berkelanjutan.";
-
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kangjhooe.example.com"),
+  metadataBase: new URL(defaultSEO.url),
   title: {
-    default: siteName,
+    default: defaultSEO.title,
     template: "%s | Kang Jhooe",
   },
-  description: siteDescription,
-  openGraph: {
-    title: siteName,
-    description: siteDescription,
-    url: "https://kangjhooe.example.com",
-    siteName,
-    locale: "id_ID",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: siteName,
-    description: siteDescription,
-  },
+  description: defaultSEO.description,
+  keywords: defaultSEO.keywords,
+  openGraph: defaultSEO.openGraph,
+  twitter: defaultSEO.twitter,
 };
 
 export default function RootLayout({
@@ -48,16 +39,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id">
+    <html lang="id" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground antialiased`}
       >
-        <FullScreenShortcut />
-        <Navbar />
-        <main className="max-w-5xl mx-auto w-full px-4 sm:px-6 py-12 space-y-12">
-          {children}
-        </main>
-        <Footer />
+        <ThemeProvider>
+          <SplashScreen />
+          <FullScreenShortcut />
+          <Navbar />
+          <main className="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6">
+            <PageTransition>{children}</PageTransition>
+          </main>
+          <BackToTopButton />
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

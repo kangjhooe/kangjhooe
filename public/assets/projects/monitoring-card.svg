@@ -1,0 +1,11 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="640" height="360" rx="40" fill="#0A2A1D"/>
+<rect x="30" y="30" width="580" height="300" rx="24" fill="white" fill-opacity="0.05" stroke="#23A26F" stroke-opacity="0.4"/>
+<path d="M120 230C150 190 190 150 240 190C290 230 320 150 360 150C400 150 420 230 460 230C500 230 520 200 540 180" stroke="#23A26F" stroke-width="6" stroke-linecap="round"/>
+<circle cx="240" cy="190" r="7" fill="#23A26F"/>
+<circle cx="360" cy="150" r="7" fill="#23A26F"/>
+<circle cx="460" cy="230" r="7" fill="#23A26F"/>
+<text x="50%" y="90" dominant-baseline="middle" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" fill="#E7F4ED">Monitoring Siswa</text>
+<text x="50%" y="120" dominant-baseline="middle" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#E7F4ED" fill-opacity="0.8">Realtime Insight & Kehadiran</text>
+</svg>
+

@@ -3,8 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --background: #f8fbf9;
-  --foreground: #0f1c13;
+  --color-bg: #f5fbf8;
+  --color-fg: #0b1f15;
+  --color-card: rgba(255, 255, 255, 0.8);
+  --color-border: rgba(15, 95, 63, 0.15);
+  --noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cpath fill='rgba(15,95,63,0.08)' d='M7 5h2v2H7zM17 25h2v2h-2zM37 45h2v2h-2zM27 15h2v2h-2z'/%3E%3C/svg%3E");
+}
+
+.dark {
+  --color-bg: #020c07;
+  --color-fg: #f1f8f3;
+  --color-card: rgba(5, 18, 12, 0.85);
+  --color-border: rgba(35, 162, 111, 0.2);
 }
 
 @layer base {
@@ -13,33 +23,47 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
-    background-image: radial-gradient(
-        circle at 20% 20%,
-        rgba(15, 95, 63, 0.08),
-        transparent 45%
+    @apply font-sans antialiased transition-colors duration-300;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    background-image: linear-gradient(
+        145deg,
+        rgba(15, 95, 63, 0.14),
+        rgba(35, 162, 111, 0.05)
       ),
-      radial-gradient(
-        circle at 80% 0%,
-        rgba(15, 95, 63, 0.1),
-        transparent 55%
-      );
+      var(--noise);
     min-height: 100vh;
   }
 
   ::selection {
-    background: rgba(15, 95, 63, 0.2);
+    background: rgba(35, 162, 111, 0.25);
     color: #0f5f3f;
+  }
+
+  section {
+    @apply rounded-[32px] border border-[var(--color-border)] bg-[var(--color-card)] p-6 shadow-soft-xl backdrop-blur;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/20 transition hover:-translate-y-0.5 hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary;
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/30 transition hover:-translate-y-0.5 hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center rounded-full border border-primary/30 px-6 py-3 text-sm font-semibold text-primary transition hover:-translate-y-0.5 hover:border-primary hover:bg-white;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-primary/30 px-6 py-3 text-sm font-semibold text-primary transition hover:-translate-y-0.5 hover:border-primary hover:bg-white/80 dark:hover:bg-white/10;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply rounded-[28px] border border-[var(--color-border)] bg-[var(--color-card)] shadow-soft-xl backdrop-blur;
+  }
+
+  .text-gradient {
+    background: linear-gradient(120deg, #0f5f3f, #23a26f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 

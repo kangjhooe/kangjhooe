@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "xclass-digital-learning",
+    "title": "XClass - Sistem Pembelajaran Digital",
+    "description": "LMS terintegrasi untuk madrasah yang menyediakan kelas virtual, evaluasi otomatis, dan pemantauan perkembangan siswa secara real-time.",
+    "thumbnail": "/assets/projects/xclass-card.svg",
+    "tech": ["Next.js", "NestJS", "PostgreSQL", "Realtime"],
+    "demoUrl": "https://xclass.kangjhooe.com",
+    "codeUrl": "https://github.com/kangjhooe/xclass"
+  },
+  {
+    "slug": "pkkm-presentation",
+    "title": "Website Presentasi Madrasah PKKM",
+    "description": "Portal statis premium untuk presentasi PKKM yang menampilkan profil lembaga, kurikulum unggulan, dan capaian santri secara interaktif.",
+    "thumbnail": "/assets/projects/pkkm-card.svg",
+    "tech": ["Next.js", "Tailwind CSS", "Contentful"],
+    "demoUrl": "https://presentasi.kangjhooe.com",
+    "codeUrl": "https://github.com/kangjhooe/pkkm-site"
+  },
+  {
+    "slug": "madrasah-monitoring",
+    "title": "Portal Monitoring Siswa Madrasah",
+    "description": "Dasbor monitoring berbasis web untuk merekap kehadiran, capaian harian, dan integrasi notifikasi WhatsApp bagi guru dan wali.",
+    "thumbnail": "/assets/projects/monitoring-card.svg",
+    "tech": ["React", "Node.js", "MongoDB", "WhatsApp API"],
+    "demoUrl": "https://monitoring.kangjhooe.com",
+    "codeUrl": "https://github.com/kangjhooe/madrasah-monitoring"
+  }
+]
+
