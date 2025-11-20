@@ -5,8 +5,8 @@ import Link from "next/link";
 import { AnimatedSkillCloud } from "./AnimatedSkillCloud";
 
 const heroStats = [
-  { label: "Tahun Fokus Madrasah", value: "7+", detail: "Digitalisasi & LMS" },
-  { label: "Guru & Siswa Terbantu", value: "2.5K", detail: "MA & MTs" },
+  { label: "Tahun Fokus EdTech", value: "7+", detail: "Digitalisasi & LMS" },
+  { label: "Guru & Siswa Terbantu", value: "2.5K", detail: "Sekolah & Komunitas" },
   { label: "Jam Mentoring", value: "480+", detail: "Transformasi digital" },
 ];
 
@@ -21,7 +21,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            Salam Pendidikan Madrasah
+            Salam Pendidikan Indonesia
           </motion.p>
           <motion.div
             className="space-y-5"
@@ -33,11 +33,11 @@ export function Hero() {
               Kang Jhooe
             </h1>
             <p className="text-xl text-foreground/80 dark:text-foreground/70">
-              Fullstack Developer | Pendidikan | Madrasah Tech Enthusiast
+              Fullstack Developer | Pendidikan | EdTech Builder
             </p>
             <p className="max-w-2xl text-base leading-relaxed text-foreground/75">
               Pengembang aplikasi XClass dan pendukung penuh digitalisasi pendidikan
-              madrasah. Selalu belajar untuk memberi manfaat.
+              berbasis data. Selalu belajar untuk memberi manfaat.
             </p>
           </motion.div>
           <motion.div
@@ -77,7 +77,7 @@ export function Hero() {
               Fokus 2025
             </p>
             <h3 className="text-3xl font-semibold leading-snug">
-              Ekosistem Digital yang <br /> mendukung madrasah berdaya.
+              Ekosistem Digital yang <br /> mendukung pembelajaran berdaya.
             </h3>
             <p className="text-sm text-white/80">
               Riset, desain, dan pengembangan solusi teknologi untuk kelas virtual,
@@ -91,7 +91,7 @@ export function Hero() {
                 Next.js
               </span>
               <span className="rounded-full border border-white/40 px-3 py-1">
-                Madrasah
+                EdTech
               </span>
             </div>
           </div>

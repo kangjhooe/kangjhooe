@@ -1,17 +1,39 @@
 import type { Metadata } from "next";
 import { SectionTitle } from "@/components/SectionTitle";
-import { FaEnvelope, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope, FaGlobe, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "Kontak",
   description:
-    "Hubungi Kang Jhooe untuk kolaborasi digitalisasi madrasah dan pengembangan aplikasi.",
+    "Hubungi Kang Jhooe untuk kolaborasi transformasi digital dan pengembangan aplikasi pendidikan.",
 };
 
 const socials = [
-  { label: "GitHub", href: "https://github.com/kangjhooe", icon: FaGithub },
-  { label: "LinkedIn", href: "https://linkedin.com/in/kangjhooe", icon: FaLinkedin },
-  { label: "Email", href: "mailto:hello@kangjhooe.com", icon: FaEnvelope },
+  { label: "Website", href: "https://kangjhooe.com", icon: FaGlobe },
+  { label: "Instagram", href: "https://instagram.com/kangjhooe", icon: FaInstagram },
+  { label: "Email", href: "mailto:kang.jhooe@gmail.com", icon: FaEnvelope },
+];
+
+const contactDetails = [
+  {
+    label: "Email Utama",
+    value: "kang.jhooe@gmail.com",
+    href: "mailto:kang.jhooe@gmail.com",
+  },
+  {
+    label: "Nomor Utama & WhatsApp",
+    value: "0823-1616-1699",
+    href: "https://wa.me/6282316161699?text=Halo%20Kang%20Jhooe%2C%20saya%20ingin%20berkolaborasi%20untuk%20transformasi%20digital%20lembaga.",
+  },
+  {
+    label: "Kota Domisili",
+    value: "Krui, Pesisir Barat",
+  },
+  {
+    label: "Website",
+    value: "kangjhooe.com",
+    href: "https://kangjhooe.com",
+  },
 ];
 
 export default function ContactPage() {
@@ -23,14 +45,29 @@ export default function ContactPage() {
           <div className="glass-panel space-y-5 p-6">
             <p className="text-base text-foreground/80">
               Silakan kirim pesan untuk kolaborasi proyek pendidikan, konsultasi
-              digitalisasi madrasah, atau undangan berbagi praktik baik. Saya siap
+              transformasi digital lembaga, atau undangan berbagi praktik baik. Saya siap
               membantu merancang roadmap, menyiapkan tim, sampai implementasi teknis.
             </p>
-            <div className="space-y-2">
-              <p className="text-sm font-semibold text-primary">Direct Email</p>
-              <a href="mailto:hello@kangjhooe.com" className="text-lg font-semibold text-gradient">
-                hello@kangjhooe.com
-              </a>
+            <div className="space-y-3">
+              {contactDetails.map((item) => (
+                <div key={item.label} className="space-y-1 rounded-2xl border border-primary/10 p-4">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+                    {item.label}
+                  </p>
+                  {item.href ? (
+                    <a
+                      href={item.href}
+                      className="text-base font-semibold text-gradient transition hover:opacity-80"
+                      target={item.href.startsWith("http") ? "_blank" : undefined}
+                      rel={item.href.startsWith("http") ? "noreferrer" : undefined}
+                    >
+                      {item.value}
+                    </a>
+                  ) : (
+                    <p className="text-base font-semibold text-foreground">{item.value}</p>
+                  )}
+                </div>
+              ))}
             </div>
             <div className="space-y-3">
               <p className="text-sm font-semibold text-primary">Sosial Media</p>
@@ -51,7 +88,7 @@ export default function ContactPage() {
           </div>
           <form
             className="glass-panel space-y-4 p-6"
-            action="mailto:hello@kangjhooe.com"
+            action="mailto:kang.jhooe@gmail.com"
             method="POST"
             encType="text/plain"
           >
@@ -70,7 +107,7 @@ export default function ContactPage() {
               <input
                 type="email"
                 name="email"
-                placeholder="email@madrasah.sch.id"
+                placeholder="email@institusi.sch.id"
                 required
                 className="mt-2 w-full rounded-2xl border border-primary/20 bg-white/80 px-4 py-3 text-sm text-foreground focus:border-primary focus:outline-none dark:bg-white/10"
               />
@@ -97,7 +134,7 @@ export default function ContactPage() {
         </div>
       </section>
       <a
-        href="https://wa.me/6281234567890?text=Halo%20Kang%20Jhooe%2C%20saya%20ingin%20berkolaborasi%20untuk%20digitalisasi%20madrasah."
+        href="https://wa.me/6282316161699?text=Halo%20Kang%20Jhooe%2C%20saya%20ingin%20berkolaborasi%20untuk%20transformasi%20digital%20lembaga."
         className="fixed bottom-24 right-6 z-40 flex items-center gap-2 rounded-full bg-[#23A26F] px-4 py-3 text-sm font-semibold text-white shadow-soft-xl transition hover:-translate-y-1"
         target="_blank"
         rel="noreferrer"

@@ -1,12 +1,12 @@
 export const defaultSEO = {
-  title: "Kang Jhooe | Fullstack Developer Madrasah",
+  title: "Kang Jhooe | Fullstack Developer EdTech",
   description:
-    "Portofolio premium Kang Jhooe, Fullstack Developer dan Madrasah Tech Enthusiast yang membangun XClass serta solusi digital pendidikan.",
+    "Portofolio premium Kang Jhooe, Fullstack Developer dan EdTech builder yang membangun XClass serta solusi digital pendidikan.",
   url: "https://kangjhooe.example.com",
   keywords: [
     "Kang Jhooe",
     "Fullstack Developer",
-    "Pendidikan Madrasah",
+    "Pendidikan Digital",
     "XClass",
     "Next.js",
     "NestJS",

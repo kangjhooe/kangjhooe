@@ -2,7 +2,7 @@
   {
     "slug": "xclass-digital-learning",
     "title": "XClass - Sistem Pembelajaran Digital",
-    "description": "LMS terintegrasi untuk madrasah yang menyediakan kelas virtual, evaluasi otomatis, dan pemantauan perkembangan siswa secara real-time.",
+    "description": "LMS terintegrasi untuk lembaga pendidikan yang menyediakan kelas virtual, evaluasi otomatis, dan pemantauan perkembangan siswa secara real-time.",
     "thumbnail": "/assets/projects/xclass-card.svg",
     "tech": ["Next.js", "NestJS", "PostgreSQL", "Realtime"],
     "demoUrl": "https://xclass.kangjhooe.com",
@@ -10,16 +10,16 @@
   },
   {
     "slug": "pkkm-presentation",
-    "title": "Website Presentasi Madrasah PKKM",
-    "description": "Portal statis premium untuk presentasi PKKM yang menampilkan profil lembaga, kurikulum unggulan, dan capaian santri secara interaktif.",
+    "title": "Website Presentasi PKKM",
+    "description": "Portal statis premium untuk presentasi PKKM yang menampilkan profil lembaga, kurikulum unggulan, dan capaian siswa secara interaktif.",
     "thumbnail": "/assets/projects/pkkm-card.svg",
     "tech": ["Next.js", "Tailwind CSS", "Contentful"],
     "demoUrl": "https://presentasi.kangjhooe.com",
     "codeUrl": "https://github.com/kangjhooe/pkkm-site"
   },
   {
-    "slug": "madrasah-monitoring",
-    "title": "Portal Monitoring Siswa Madrasah",
+    "slug": "learning-monitoring",
+    "title": "Portal Monitoring Siswa",
     "description": "Dasbor monitoring berbasis web untuk merekap kehadiran, capaian harian, dan integrasi notifikasi WhatsApp bagi guru dan wali.",
     "thumbnail": "/assets/projects/monitoring-card.svg",
     "tech": ["React", "Node.js", "MongoDB", "WhatsApp API"],

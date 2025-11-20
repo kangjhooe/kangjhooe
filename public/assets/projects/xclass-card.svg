@@ -6,6 +6,6 @@
 <path d="M160 220H360" stroke="white" stroke-opacity="0.5" stroke-width="4" stroke-linecap="round"/>
 <circle cx="320" cy="80" r="36" fill="#23A26F" fill-opacity="0.4"/>
 <text x="50%" y="86" dominant-baseline="middle" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="26" font-weight="600" fill="white">XCLASS</text>
-<text x="50%" y="300" dominant-baseline="middle" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" fill="white" fill-opacity="0.75">Pembelajaran Digital Madrasah</text>
+<text x="50%" y="300" dominant-baseline="middle" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" fill="white" fill-opacity="0.75">Pembelajaran Digital Adaptif</text>
 </svg>
 

@@ -68,7 +68,7 @@ export function SkillRadarChart() {
             },
             pointLabels: {
               color: theme === "dark" ? "#E7F4ED" : "#0F1C13",
-              font: { size: 13, weight: "600" },
+              font: { size: 13, weight: 600 },
             },
           },
         },

@@ -8,7 +8,7 @@ const skillNodes = [
   { label: "Tailwind CSS", top: "25%", left: "70%" },
   { label: "Git", top: "60%", left: "80%" },
   { label: "Linux Server", top: "40%", left: "45%" },
-  { label: "Digital Madrasah", top: "75%", left: "55%" },
+  { label: "Digital Learning", top: "75%", left: "55%" },
 ];
 
 export function AnimatedSkillCloud() {

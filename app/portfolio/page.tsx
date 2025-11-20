@@ -6,7 +6,7 @@ import projects from "@/data/projects.json";
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "Koleksi proyek digital Kang Jhooe untuk mendukung transformasi madrasah.",
+    "Koleksi proyek digital Kang Jhooe untuk mendukung transformasi pembelajaran.",
 };
 
 const typedProjects = projects as Project[];

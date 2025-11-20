@@ -13,13 +13,13 @@ const skillGroups = [
     title: "Tech Stack",
     items: ["Next.js", "NestJS", "Tailwind CSS", "Git", "Linux Server"],
     description:
-      "Perpaduan teknologi yang memastikan aplikasi madrasah berjalan cepat, aman, dan mudah di-scale.",
+      "Perpaduan teknologi yang memastikan aplikasi pendidikan berjalan cepat, aman, dan mudah di-scale.",
   },
   {
     title: "Soft Skills",
     items: ["Leadership", "Manajemen Pendidikan", "Komunikasi"],
     description:
-      "Kemampuan memimpin tim kecil, mengelola kebutuhan stakeholder madrasah, dan menjembatani bahasa teknis.",
+      "Kemampuan memimpin tim kecil, mengelola kebutuhan stakeholder lembaga, dan menjembatani bahasa teknis.",
   },
 ];
 

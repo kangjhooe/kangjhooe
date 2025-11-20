@@ -8,7 +8,7 @@ import projects from "@/data/projects.json";
 export const metadata: Metadata = {
   title: "Beranda",
   description:
-    "Situs resmi Kang Jhooe, Fullstack Developer madrasah yang fokus pada inovasi digital pendidikan.",
+    "Situs resmi Kang Jhooe, Fullstack Developer pendidikan yang fokus pada inovasi digital dan produk berkelanjutan.",
 };
 
 const focusAreas = [
@@ -33,17 +33,17 @@ const timeline = [
   {
     year: "2025",
     title: "XClass 3.0",
-    detail: "Integrasi AI tutor dan analitik pembelajaran untuk MA Al-Falah Krui.",
+    detail: "Integrasi AI tutor dan analitik pembelajaran pada XClass untuk mendukung guru di banyak daerah.",
   },
   {
     year: "2023",
-    title: "Portal PKKM Madrasah",
-    detail: "Membangun situs presentasi interaktif untuk proses akreditasi PKKM.",
+    title: "Portal PKKM Interaktif",
+    detail: "Membangun situs presentasi interaktif untuk proses akreditasi dan showcase lembaga.",
   },
   {
     year: "2020",
     title: "Mentor Digitalisasi",
-    detail: "Mendampingi guru madrasah memahami pengelolaan server dan Git.",
+    detail: "Mendampingi guru memahami pengelolaan server, Git, dan praktik DevOps sederhana.",
   },
 ];
 
@@ -58,7 +58,7 @@ export default function Home() {
 
       <section className="space-y-6">
         <SectionTitle
-          title="Misi Premium untuk Pendidikan Madrasah"
+          title="Misi Premium untuk Pendidikan Digital"
           subtitle="Fokus 2025"
           align="left"
         />
@@ -88,7 +88,7 @@ export default function Home() {
 
       <section className="space-y-8">
         <SectionTitle
-          title="Jejak Transformasi Madrasah"
+          title="Jejak Transformasi Pembelajaran"
           subtitle="Timeline"
           align="left"
         />

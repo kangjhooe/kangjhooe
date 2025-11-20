@@ -47,7 +47,8 @@
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/30 transition hover:-translate-y-0.5 hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/30 transition hover:-translate-y-0.5 hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+    outline-color: #23a26f;
   }
 
   .btn-secondary {
@@ -56,6 +57,10 @@
 }
 
 @layer utilities {
+  .shadow-soft-xl {
+    box-shadow: 0 25px 65px -25px rgba(15, 95, 63, 0.35);
+  }
+
   .glass-panel {
     @apply rounded-[28px] border border-[var(--color-border)] bg-[var(--color-card)] shadow-soft-xl backdrop-blur;
   }
