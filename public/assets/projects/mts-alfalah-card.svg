@@ -1,32 +1,60 @@
 <svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="mts-bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#050914" />
-      <stop offset="1" stop-color="#0F1F2E" />
+      <stop offset="0" stop-color="#030811" />
+      <stop offset="1" stop-color="#0A1C2F" />
     </linearGradient>
-    <radialGradient id="mts-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 180) rotate(90) scale(200 320)">
-      <stop offset="0" stop-color="#F4D169" stop-opacity="0.25" />
-      <stop offset="1" stop-color="#050914" stop-opacity="0" />
+    <radialGradient id="mts-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 170) rotate(90) scale(220 320)">
+      <stop offset="0" stop-color="#F4D169" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#030811" stop-opacity="0" />
     </radialGradient>
+    <radialGradient id="mts-sun" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(190 120) scale(80)">
+      <stop offset="0" stop-color="#F7E2A3" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#F4D169" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="mts-line" x1="110" y1="280" x2="530" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4D169" />
+      <stop offset="1" stop-color="#41F0A8" />
+    </linearGradient>
+    <filter id="mts-blur" x="0" y="0" width="640" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40" />
+    </filter>
   </defs>
   <rect width="640" height="360" rx="36" fill="url(#mts-bg)" />
-  <rect x="24" y="24" width="592" height="312" rx="28" fill="#04070F" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <rect x="24" y="24" width="592" height="312" rx="28" fill="#030A15" stroke="white" stroke-opacity="0.08" stroke-width="2" />
   <rect x="24" y="24" width="592" height="312" rx="28" fill="url(#mts-glow)" />
-  <path d="M120 260C150 220 190 180 250 210C310 240 330 300 410 280C470 264 510 210 540 180" stroke="#F4D169" stroke-width="6" stroke-linecap="round" />
-  <circle cx="220" cy="150" r="54" fill="#0B1521" stroke="#F4D169" stroke-opacity="0.4" stroke-width="3" />
-  <circle cx="420" cy="200" r="64" fill="#0B1521" stroke="#4BF0B1" stroke-opacity="0.3" stroke-width="3" />
-  <rect x="160" y="110" width="320" height="140" rx="30" fill="#091320" stroke="#F4D169" stroke-opacity="0.35" />
-  <rect x="200" y="146" width="240" height="20" rx="10" fill="#E8C68E" />
-  <rect x="200" y="180" width="160" height="16" rx="8" fill="#4BF0B1" />
-  <rect x="200" y="205" width="120" height="14" rx="7" fill="#1D2F45" />
-  <text x="50%" y="90" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#F5F2EA">
+  <g opacity="0.25">
+    <path d="M80 120H560" stroke="#0E273B" stroke-width="2" stroke-dasharray="18 18" />
+    <path d="M80 160H560" stroke="#0E273B" stroke-width="2" stroke-dasharray="18 18" />
+    <path d="M80 200H560" stroke="#0E273B" stroke-width="2" stroke-dasharray="18 18" />
+    <path d="M80 240H560" stroke="#0E273B" stroke-width="2" stroke-dasharray="18 18" />
+    <path d="M80 280H560" stroke="#0E273B" stroke-width="2" stroke-dasharray="18 18" />
+  </g>
+  <circle cx="190" cy="120" r="70" fill="url(#mts-sun)" opacity="0.45" />
+  <g filter="url(#mts-blur)" opacity="0.25">
+    <ellipse cx="420" cy="220" rx="120" ry="70" fill="#103049" />
+  </g>
+  <rect x="140" y="110" width="360" height="150" rx="32" fill="#09182A" stroke="#F4D169" stroke-opacity="0.35" />
+  <rect x="170" y="140" width="140" height="90" rx="18" fill="#0C2236" stroke="#3FD6A0" stroke-opacity="0.4" />
+  <rect x="198" y="158" width="84" height="12" rx="6" fill="#F4D169" />
+  <rect x="188" y="184" width="104" height="10" rx="5" fill="#1F3852" />
+  <rect x="188" y="202" width="74" height="10" rx="5" fill="#102436" />
+  <rect x="330" y="140" width="140" height="16" rx="8" fill="#E8C68E" />
+  <rect x="330" y="168" width="120" height="14" rx="7" fill="#41F0A8" />
+  <rect x="330" y="194" width="100" height="12" rx="6" fill="#102436" />
+  <rect x="330" y="216" width="140" height="12" rx="6" fill="#17324B" />
+  <path d="M120 260C160 206 180 164 228 180C270 194 300 248 338 252C380 256 420 200 470 180C502 168 526 190 540 204" stroke="url(#mts-line)" stroke-width="7" stroke-linecap="round" />
+  <circle cx="228" cy="180" r="10" fill="#061627" stroke="#F4D169" stroke-width="3" />
+  <circle cx="338" cy="252" r="10" fill="#061627" stroke="#41F0A8" stroke-width="3" />
+  <circle cx="470" cy="180" r="10" fill="#061627" stroke="#F4D169" stroke-width="3" />
+  <text x="50%" y="88" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#F5F2EA">
     MTS AL FALAH
   </text>
-  <text x="50%" y="122" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.35em" fill="#F4D169">
-    WORKSPACE
+  <text x="50%" y="120" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.32em" fill="#F4D169">
+    DIGITAL WORKSPACE
   </text>
-  <text x="50%" y="318" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#F4D169">
-    Email Institusi & Automasi Surat
+  <text x="50%" y="318" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" fill="#F4D169" fill-opacity="0.92">
+    Automasi Email &amp; Administrasi Surat
   </text>
 </svg>
 
